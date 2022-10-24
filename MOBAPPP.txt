@@ -1,0 +1,100 @@
+
+Conversation opened. 1 unread message.
+
+Skip to content
+Using Gmail with screen readers
+1 of 1,420
+Fwd:
+Inbox
+
+ikyung <iluezerep13@gmail.com>
+8:32 AM (0 minutes ago)
+to me
+
+
+
+---------- Forwarded message ---------
+From: Chrysler Allaine Buclay <commandprompt404@gmail.com>
+Date: Tue, Sep 27, 2022 at 10:31
+Subject:
+To: <iluezerep13@gmail.com>
+
+
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SignUpActivity" >
+
+
+
+    <LinearLayout
+        android:id="@+id/signuppage"
+        android:layout_width="409dp"
+        android:layout_height="649dp"
+        android:orientation="vertical"
+        tools:layout_editor_absoluteX="1dp"
+        tools:layout_editor_absoluteY="81dp"
+        tools:ignore="MissingConstraints">
+
+        <TextView
+            android:id="@+id/createaccount"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/create_account"
+            android:textAlignment="center"
+            tools:layout_editor_absoluteX="0dp"
+            tools:layout_editor_absoluteY="40dp"
+            android:textStyle="bold"
+            android:textSize="30sp"
+            tools:ignore="MissingConstraints" />
+
+        <EditText
+            android:id="@+id/editTextTextPersonName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:text="@string/username"
+            android:autofillHints="username"
+            tools:ignore="LabelFor" />
+
+        <EditText
+            android:id="@+id/firstpass"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="textShortMessage|textPassword"
+            android:text="@string/pass"
+            android:autofillHints="password"
+            tools:ignore="LabelFor" />
+
+        <EditText
+            android:id="@+id/secondpass"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="textShortMessage|textPassword"
+            android:text="@string/confirm_password"
+            android:autofillHints="password"
+            tools:ignore="LabelFor" />
+
+        <EditText
+            android:id="@+id/editTextTextEmailAddress2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="textEmailAddress"
+            android:text="@string/email"
+            android:autofillHints="emailAddress"
+            tools:ignore="LabelFor" />
+
+        <Button
+            android:id="@+id/signupbutton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/confirmpass" />
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
